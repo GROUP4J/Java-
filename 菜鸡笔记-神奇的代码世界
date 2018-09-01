@@ -1,0 +1,2 @@
+Map 的put(key,value)居然是有返回值的。。。。
+expiryMap(带有效时间的map，通过继承HashMap,在类内自带一个map属性，对key值或value值存一个有效期，重写get、put、contains等方法达到有效期判断)。
