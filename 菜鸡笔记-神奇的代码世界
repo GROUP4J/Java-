@@ -1,2 +1,7 @@
 Map 的put(key,value)居然是有返回值的。。。。
 expiryMap(带有效时间的map，通过继承HashMap,在类内自带一个map属性，对key值或value值存一个有效期，重写get、put、contains等方法达到有效期判断)。
+
+老是忘记==和equals
+==基本数据类型，值得比较，对引用类型属于比较引用对象的地址
+但比较地址意义不大，那一般对象用equals都是为了重写equals方法，然后将对象内容进行比较。。。。
+如果没有重写eqauls方法，==和equals对引用类型的作用一毛一样。
