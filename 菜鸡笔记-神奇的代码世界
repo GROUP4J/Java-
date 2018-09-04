@@ -5,3 +5,5 @@ expiryMap(带有效时间的map，通过继承HashMap,在类内自带一个map�
 ==基本数据类型，值得比较，对引用类型属于比较引用对象的地址
 但比较地址意义不大，那一般对象用equals都是为了重写equals方法，然后将对象内容进行比较。。。。
 如果没有重写eqauls方法，==和equals对引用类型的作用一毛一样。
+
+单元测试需要添加断言判断 assertEquals(Object A,  Object B) ；不然怎么测都是成功白写了...
