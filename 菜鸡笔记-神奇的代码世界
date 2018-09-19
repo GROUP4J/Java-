@@ -9,3 +9,6 @@ expiryMap(带有效时间的map，通过继承HashMap,在类内自带一个map�
 单元测试需要添加断言判断 assertEquals(Object A,  Object B) ；不然怎么测都是成功白写了...
 
 tomcat 容器在linux节点获取get请求时会出现中文乱码的情况，是由于springmvc使用了默认的编码方式，需要在tomcat 的配置文件中添加编码配置。
+
+linux节点上部署应用时遇到unable to create native thread的情况，线程资源不足导致应用无法启动，将ulimit -a查看user process数限制，ulimit -u 2048修改
+重启服务成功。
